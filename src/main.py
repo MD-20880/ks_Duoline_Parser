@@ -14,7 +14,7 @@ if not __debug__:
 else:
     import constants
     import decode, encode
-    from src import text_decode,text_encode
+    import text_decode,text_encode
     import config
     from log import Log
     import json_decode
@@ -77,6 +77,9 @@ def __main__():
             write_file(output_dir,ks_file,mode,decodedText)
 
     elif mode == constants.MODE_DUOLINE_ENCODE:
+        check = input("请确认在使用本方法前已经将 *.ks.txt文件及对应的*.ks文件放在同一文件夹下，是否确认(y/n):")
+        if check.upper() == "N":
+            quit(0)
         for ks_file in files:
             textContent = ""
             try:
