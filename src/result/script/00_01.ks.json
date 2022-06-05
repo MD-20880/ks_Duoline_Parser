@@ -1,0 +1,5733 @@
+{
+    "file_name": "00_01.ks",
+    "lines": [
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\ufeff@hide"
+            },
+            "line_number": 1,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "blackout",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "2000"
+                    },
+                    "hitCancel"
+                ],
+                "type": "annotation"
+            },
+            "line_number": 2,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 3,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitUpdate",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 4,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG01c01"
+                    },
+                    {
+                        "name": "pos",
+                        "value": [
+                            "-400",
+                            "-75"
+                        ]
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "100"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 5,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playBgm",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BGM21"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 6,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "2000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 7,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "moveCamera",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "cg"
+                    },
+                    {
+                        "name": "pos",
+                        "value": [
+                            "-200",
+                            "-75",
+                            "0"
+                        ]
+                    },
+                    {
+                        "name": "time",
+                        "value": "40000"
+                    },
+                    {
+                        "name": "accel",
+                        "value": "2"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 8,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitUpdate",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 9,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 10,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u898b\u3064\u3051\u305f\u2026\u2026\u300d"
+            },
+            "line_number": 11,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "1"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 12,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE053"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 13,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 14,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u898b\u3064\u3051\u305f\u305e\u2026\u2026\u300d"
+            },
+            "line_number": 15,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "2"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 16,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 17,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c1234123\u300d"
+            },
+            "line_number": 18,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "3"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 19,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 20,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 21,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c21341234\u300d"
+            },
+            "line_number": 22,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "4"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 23,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Ruby",
+                "params": [
+                    {
+                        "name": "mess",
+                        "value": "\uff23\u2010\uff21\uff29"
+                    },
+                    {
+                        "name": "read",
+                        "value": "\u30bb\u30f3\u30c8\u30e9\u30eb\u30a8\u30fc\u30a2\u30a4"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 24,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 25,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c123412341234\u300d"
+            },
+            "line_number": 26,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "5"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 27,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "1500"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 28,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_01"
+                    },
+                    {
+                        "name": "pos",
+                        "value": [
+                            "-200",
+                            "-170"
+                        ]
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "100"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 29,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "1500"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 30,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE053"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 31,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 32,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c12342134\uff01\u300d"
+            },
+            "line_number": 33,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "6"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 34,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 35,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3075\u3063\u2026\u2026\u3075\u306f\u3063\uff01\u3000\u3075\u306f\u306f\u306f\u3063\uff01\u300d"
+            },
+            "line_number": 36,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "7"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 37,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 38,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_01"
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 39,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 40,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000001_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 41,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u3092\u7121\u5236\u9650\u30aa\u30da\u30ec\u30fc\u30bf\u30fc\u3068\u3057\u3066"
+            },
+            "line_number": 42,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "/n/n\u3000\u767b\u9332\u3057\u307e\u3057\u305f\u300d"
+            },
+            "line_number": 43,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "8"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 44,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 45,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 46,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "9"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 47,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_02"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 48,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u81ea\u5206\u3067\u3082\u4fe1\u3058\u3089\u308c\u306a\u3044\u3088\u3046\u306a\u6c17\u5206\u3060\u3063\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 49,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 50,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "10"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 51,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u672c\u5f53\u306b\u2026\u2026\uff23\u2010\uff21\uff29\u306a\u3093\u3060\u3088\u306a\uff1f\u300d"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000002_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 52,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+            },
+            "line_number": 53,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "11"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 54,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u306f\u3044\u3001\u30de\u30b9\u30bf\u30fc\u3002\u79c1\u306f\uff23\u2010\uff21\uff29\u3067\u3059\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 55,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 56,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "12"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 57,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\uff21\uff29\u306f\u4e16\u754c\u3092\u5909\u3048\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 58,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 59,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u73fe\u5728\u3001\u4eba\u304c\u751f\u304d\u308b\u305f\u3081\u306b\u5fc5\u8981\u306a\u30a4\u30f3\u30d5\u30e9\u30b9\u30c8"
+            },
+            "line_number": 60,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "13"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 61,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "/n\u30e9\u30af\u30c1\u30e3\u30fc\u306e/n\u5927\u534a\u306f\u3001\uff21\uff29\u306b\u3088\u308a\u6700"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 62,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u9069\u5316"
+            },
+            "line_number": 63,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3055\u308c\u3066\u3044\u308b\u3002"
+            },
+            "line_number": 64,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "14"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 65,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0/n\u96fb\u6c17\u6c34\u9053\u30ac\u30b9\u306e\u7ba1\u7406\u3084\u3001\u4ea4\u901a\u6574\u7406"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 66,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3084\u3001\u5f79\u6240\u306e"
+            },
+            "line_number": 67,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u624b\u7d9a\u304d\u3084\u3001/n\u9280\u884c\u306e\u696d\u52d9\u306a\u3069\u3001\uff21\uff29\u306f\u3069\u3053"
+            },
+            "line_number": 68,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "15"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 69,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u306b\u3067\u3082\u4f7f\u308f\u308c\u3066\u3044\u305f\u3002/n\u5fc3\u306e\u58f0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 70,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 71,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "16"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 72,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u305d\u306e\u306a\u304b\u3067\u3082\u3001\u6700\u9ad8\u306e\u6027\u80fd\u3092\u8a87\u308b\uff23\u2010\uff21\uff29\u306f"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000003_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 73,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3001/n\u4e16\u754c\u3092\u52d5\u304b\u3057\u3066\u3044\u308b\u3068\u8a00\u3063\u3066\u3082\u904e\u8a00\u3067"
+            },
+            "line_number": 74,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 75,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "17"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 76,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u306f\u306a\u3044\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 77,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597/n\u300c\u305d\u306e\uff23\u2010\uff21\uff29\u3078\u3001\u547d\u4ee4\u3067\u304d\u308b\u306e\u304b"
+            },
+            "line_number": 78,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "18"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 79,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_03"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 80,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u2026\u2026\u4ffa\u304c"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 81,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300d"
+            },
+            "line_number": 82,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+            },
+            "line_number": 83,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "19"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 84,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u306f\u3044\u3001\u30de\u30b9\u30bf\u30fc\u306f\u7121\u5236\u9650\u30aa\u30da\u30ec\u30fc\u30bf\u30fc\u3068\u3057"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000004_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 85,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3066/n\u3000\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u3059\u300d/n\u5fc3\u306e\u58f0"
+            },
+            "line_number": 86,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "20"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 87,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 88,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 89,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "21"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 90,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u8eab\u9707\u3044\u3057\u305f\u3002"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000005_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 91,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 92,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "22"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 93,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u4ffa\u306e\u53e3\u5ea7\u3092\u56fd\u5bb6\u4e88\u7b97\u4e26\u306b\u3059\u308b\u3053\u3068\u3060\u3063\u3066\u2026"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 94,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u2026/n\u3000\u3067\u304d\u308b\u3001\u3088\u306a\uff1f\u300d"
+            },
+            "line_number": 95,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "23"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 96,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 97,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+            },
+            "line_number": 98,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "24"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 99,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 100,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG12c01"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 101,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 102,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u3082\u3061\u308d\u3093\u3067\u3059\u3001\u30de\u30b9\u30bf\u30fc\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 103,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 104,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "25"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 105,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u56fd\u5bb6\u6a5f\u5bc6\u3092\u95b2\u89a7\u3059\u308b\u3053\u3068\u3060\u3063\u3066\u2026\u2026\uff1f\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 106,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+            },
+            "line_number": 107,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "26"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 108,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u6a5f\u5bc6\u30ec\u30d9\u30eb\uff21\uff21\u4ee5\u4e0a\u306e\u30d5\u30a1\u30a4\u30eb\u3092\u4e00\u89a7\u306a\u3055"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 109,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3044\u307e\u3059\u304b\uff1f\u300d"
+            },
+            "line_number": 110,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 111,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "27"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 112,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u304f\u3063\u304f\u3063\u2026\u2026\u4ffa\u3068\u3057\u305f\u3053\u3068\u304c\u3001\u624b\u306b\u6c57\u3092\u2026"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 113,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u2026\u300d"
+            },
+            "line_number": 114,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 115,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u6291\u3048\u304d\u308c\u306a\u3044\u8208\u596e\u306b\u3001\u80cc\u7b4b\u304c\u305e\u304f\u305e\u304f\u3057\u305f\u3002"
+            },
+            "line_number": 116,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "28"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 117,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "/n\u5fc3\u306e\u58f0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 118,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3075\u3068\u7a93\u306e\u5916\u306b\u76ee\u3092\u5411\u3051\u308b\u3002"
+            },
+            "line_number": 119,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "29"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 120,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 121,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_02"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 122,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 123,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0/n\u91d1\u8272\u306e\u6708\u304c\u8f1d\u3044\u3066\u3044\u305f\u3002/n\u5fc3\u306e"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000006_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 124,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u58f0"
+            },
+            "line_number": 125,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "30"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 126,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 127,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\uff23\u2010\uff21\uff29\u3092\u69cb\u6210\u3059\u308b\u5927\u534a\u2015\u2015\u8a18\u61b6\u88c5\u7f6e\u3084\u6f14\u7b97"
+            },
+            "line_number": 128,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "31"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 129,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u88c5\u7f6e\u306a\u3069\u306f\u3001/n\u5730\u4e0a\u306b\u5206\u6563\u3057\u3066\u7f6e\u304b\u308c\u3066\u3044"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 130,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 131,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "32"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 132,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_01"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 133,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 134,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Ruby",
+                "params": [
+                    {
+                        "name": "mess",
+                        "value": "\u57ce\u524d\u584a\u6597"
+                    },
+                    {
+                        "name": "read",
+                        "value": "\u3057\u308d\u307e\u3048\u3000\u304b\u3044\u3068"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 135,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u308b\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 136,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 137,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3057\u304b\u3057\u3001\u30a2\u30ab\u30a6\u30f3\u30c8\u7ba1\u7406\u306a\u3069\u306e\u4e2d\u67a2\u90e8\u5206\u306f\u3001"
+            },
+            "line_number": 138,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "/n\u707d\u5bb3\u3084\u30c6\u30ed\u306b\u3088\u308b\u81f4\u547d\u7684\u306a\u55aa\u5931\u3092\u9632\u3050\u305f"
+            },
+            "line_number": 139,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "33"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 140,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 141,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3081\u3001/n\u6708\u306e\u57fa\u5730\u306b\u3042\u3063\u305f\u3002"
+            },
+            "line_number": 142,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "34"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 143,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000007_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 144,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u305d\u3053\u306b\u3001\u4ffa\u306f\u624b\u3092\u5c4a\u304b\u305b\u305f\u306e\u3060\u3002"
+            },
+            "line_number": 145,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "35"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 146,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_02"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 147,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 148,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29/n\u300c\u30de\u30b9\u30bf\u30fc\u3001\u3054\u547d\u4ee4"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 149,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3092\u300d/n\u5fc3\u306e\u58f0"
+            },
+            "line_number": 150,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "36"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 151,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopBgm",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "3000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 152,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000008_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 153,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u6df1\u547c\u5438\u3092\u3057\u305f\u3002"
+            },
+            "line_number": 154,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "37"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 155,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 156,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 157,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 158,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3088\u3057\u2026\u2026\u7121\u5236\u9650\u306e\u30de\u30b9\u30bf\u30fc\u3068\u3057\u3066\u547d\u305a\u308b\uff01"
+            },
+            "line_number": 159,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "38"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 160,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300d"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000009_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 161,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 162,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3053\u306e\u4ffa\u3001\u57ce\u524d\u584a\u6597\u306e\u3053\u3068\u3092\u5927\u597d\u304d\u3001\u3068\u3044\u3046"
+            },
+            "line_number": 163,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "39"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 164,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5973\u306e\u5b50\u3068/n\u3000\u4f1a\u308f\u305b\u3066\u307b\u3057\u3044\uff01\u3000\u76ee\u304c\u3071\u3063"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 165,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3061\u308a\u304b\u308f\u3044\u304f\u3066\u3001/n\u3000\u512a\u3057\u304f\u7518\u3048\u3055\u305b\u3066\u304f"
+            },
+            "line_number": 166,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "40"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 167,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playBgm",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BGM09"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 168,
+            "shiftEnd": 2,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 169,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG01c01"
+                    },
+                    {
+                        "name": "pos",
+                        "value": [
+                            "-300",
+                            "-75"
+                        ]
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "100"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 170,
+            "shiftEnd": 2,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "500"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 171,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitUpdate",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 172,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u30ab\u30e1\u30e9\u63fa\u3089\u3057\u5927",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 173,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 174,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u308c\u3066\u3001\u3042\u3068\u3001\u5de8\u4e73\u3067\uff01\u300d"
+            },
+            "line_number": 175,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "41"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 176,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 177,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u4e16\u754c\u306b\uff11\u4eba\u304f\u3089\u3044\u3001\u3044\u308b\u306b\u3061\u304c\u3044\u306a\u3044\u3002\u304d\u3063"
+            },
+            "line_number": 178,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "42"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 179,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u3068\u3002\u305f\u3076\u3093\u3002/n\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 180,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 181,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "43"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 182,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u691c\u7d22\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 183,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 184,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u304a\u3001\u304a\u3046\u300d"
+            },
+            "line_number": 185,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "44"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 186,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 187,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u8a72\u5f53\u8005\u306a\u3057\u3002\u691c\u7d22\u7d50\u679c\u306f\uff10\u4ef6\u3002\u5b58\u5728\u3044\u305f\u3057"
+            },
+            "line_number": 188,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "45"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 189,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopBgm",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "3000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 190,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 191,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u307e\u305b\u3093\u3067\u3057\u305f\u300d"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000010_E05"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 192,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 193,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "47"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 194,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 195,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE054"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 196,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_05"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 197,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playBgm",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BGM12"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 198,
+            "shiftEnd": 2,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u2026\u2026\u306a\u3057\uff1f\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 199,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+            },
+            "line_number": 200,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "48"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 201,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u306f\u3044\u3001\u30de\u30b9\u30bf\u30fc\u3002\uff23\u2010\uff21\uff29\u304c\u628a\u63e1\u3057\u3066\u3044\u308b"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 202,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "/n/n\u3000\u7d04\uff16\uff10\u5104\u4eba\u306e\u4e2d\u306b\u8a72\u5f53\u8005\u306f\u304a\u308a\u307e"
+            },
+            "line_number": 203,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u305b\u3093"
+            },
+            "line_number": 204,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "49"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 205,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 206,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 207,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 208,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "50"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 209,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u2026\u2026\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 210,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 211,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "51"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 212,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE109"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 213,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u3042\u3042\u3042\u3042\u3042\u30fc\u3001\u77e5\u3063\u3066\u305f\u308f\u30fc\uff01\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 214,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 215,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "52"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 216,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 217,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "hide",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 218,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE093"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 219,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG13A02"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 220,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "enter",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff11"
+                    },
+                    {
+                        "name": "file",
+                        "value": "AVATAR_KIT"
+                    },
+                    {
+                        "name": "type",
+                        "value": "screen"
+                    },
+                    {
+                        "name": "order",
+                        "value": "1000"
+                    },
+                    {
+                        "name": "y",
+                        "value": "-100"
+                    },
+                    {
+                        "name": "x",
+                        "value": "-400"
+                    },
+                    {
+                        "name": "right",
+                        "value": "200"
+                    },
+                    "free"
+                ],
+                "type": "annotation"
+            },
+            "line_number": 221,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitAction",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff11"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 222,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE093"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 223,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "enter",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff12"
+                    },
+                    {
+                        "name": "file",
+                        "value": "AVATAR_KIT"
+                    },
+                    {
+                        "name": "type",
+                        "value": "screen"
+                    },
+                    {
+                        "name": "order",
+                        "value": "1000"
+                    },
+                    {
+                        "name": "y",
+                        "value": "-100"
+                    },
+                    {
+                        "name": "x",
+                        "value": "400"
+                    },
+                    {
+                        "name": "right",
+                        "value": "200"
+                    },
+                    "free"
+                ],
+                "type": "annotation"
+            },
+            "line_number": 224,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u305f\u3068\u3048\uff16\uff10\u5104\u306e\u4eba\u9593\u304c\u3044\u3088\u3046\u3068\u3082\u3001\u5b58\u5728\u3057\u306a"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 225,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3044\u306e\u3060\u3002/n\u5fc3\u306e\u58f0"
+            },
+            "line_number": 226,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 227,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3069\u3046\u305b\u3001\u4ffa\u3092\u597d\u304d\u306a\u5973\u306e\u5b50\u306a\u3093\u3066\u3001\uff11\u4eba\u3082\u3002"
+            },
+            "line_number": 228,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "53"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 229,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 230,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u304f\u3063\u2026\u2026\u77e5\u3063\u3066\u306f\u3044\u305f\u304c\u3001\uff23\u2010\uff21\uff29\u306b\u65ad\u8a00"
+            },
+            "line_number": 231,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "54"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 232,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u3055\u308c\u308b\u3068/n\u3000\u2026\u2026\u3064\u3089\u3044\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 233,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 234,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "55"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 235,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "hide",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 236,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE327"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 237,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "clearChar",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff11"
+                    },
+                    {
+                        "name": "time",
+                        "value": "400"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 238,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitAction",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff11"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 239,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "wait",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "500"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 240,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE327"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 241,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "clearChar",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\uff12"
+                    },
+                    {
+                        "name": "time",
+                        "value": "400"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 242,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 243,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3061\u3087\u3063\u3068\u6ce3\u3051\u3066\u304d\u305f\u300d"
+            },
+            "line_number": 244,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "56"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 245,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30c4\u30af\u30e8\u30df/\uff23\u2010\uff21\uff29"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 246,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u30de\u30b9\u30bf\u30fc\u3001\u30d7\u30ed\u30bb\u30b9\u3092\u2026\u2026\u300d/n\u584a\u6597/n"
+            },
+            "line_number": 247,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "57"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 248,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u304c\uff01\uff1f\u300d"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 249,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 250,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 251,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "58"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 252,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u898b\u5f35\u308a\u306b\u7acb\u3066\u3066\u304a\u3044\u305f\u8b66\u6212\u30d7\u30ed\u30b0\u30e9\u30e0\u304c\u3001/"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 253,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "n\uff23\u2010\uff21\uff29\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u52d5\u4f5c\u3092\u611f\u77e5\u3057\u305f\u8b66"
+            },
+            "line_number": 254,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "59"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 255,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "hide",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 256,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "enter",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "\u30ce\u30e9\u30cf\u30e0"
+                    },
+                    {
+                        "name": "file",
+                        "value": "AVATAR_KIT"
+                    },
+                    {
+                        "name": "type",
+                        "value": "screen"
+                    },
+                    {
+                        "name": "order",
+                        "value": "1000"
+                    },
+                    {
+                        "name": "y",
+                        "value": "-100"
+                    },
+                    {
+                        "name": "right",
+                        "value": "200"
+                    },
+                    "free"
+                ],
+                "type": "annotation"
+            },
+            "line_number": 257,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u544a\u97f3\u3060\u3063\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 258,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 259,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3053\u3046\u3082\u65e9\u304f\u3001\u4fb5\u5165\u306b\u611f\u3065\u304b\u308c\u308b\u3068\u306f\u2026\u2026"
+            },
+            "line_number": 260,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "60"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 261,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 262,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_05"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 263,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 264,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u307e\u3041\u3001\u3044\u3044\u2026\u2026\u8131\u51fa\u7d4c\u8def\u306f\u7528\u610f\u3057\u3066\u3042\u308b\u300d"
+            },
+            "line_number": 265,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 266,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "61"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 267,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u300c\u99c6\u3051\u56de\u308c\u3001\u5897\u6b96\u3059\u308b\u507d\u7269\u305f\u3061\u300d/n\u5fc3\u306e\u58f0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 268,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 269,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "62"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 270,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "ez01_06"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 271,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u3001\u81ea\u5df1\u5897\u6b96\u3059\u308b\u507d\u7269\u3092\u8ffd\u308f\u305b"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 272,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u308b\u3002/n\u55a9\u3048\u308b\u306a\u3089\u3001\u4f55\u5339\u3082\u306e\u56ee\u3092\u653e\u3063\u3066\u3001"
+            },
+            "line_number": 273,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "63"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 274,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "universal"
+                    },
+                    {
+                        "name": "rule",
+                        "value": "WIP_RL"
+                    },
+                    {
+                        "name": "time",
+                        "value": "500"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 275,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopBGM",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 276,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG01c01"
+                    },
+                    {
+                        "name": "pos",
+                        "value": [
+                            "-300",
+                            "-75"
+                        ]
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "100"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 277,
+            "shiftEnd": 2,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "universal"
+                    },
+                    {
+                        "name": "rule",
+                        "value": "WIP_BRUSHLR"
+                    },
+                    {
+                        "name": "time",
+                        "value": "300"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 278,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE094"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 279,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitUpdate",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 280,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u30ab\u30e1\u30e9\u63fa\u3089\u3057\u5927",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 281,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 282,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u76f8\u624b\u3092\u6df7\u4e71\u3055\u305b\u308b/n\u4f5c\u6226\u3060\u3063\u305f\u3002"
+            },
+            "line_number": 283,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "64"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 284,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0/n\u30d7\u30ed\u30b0\u30e9\u30e0\u7a7a\u9593\u3092\u5927\u91cf\u306e\u30cf\u30e0\u30b9\u30bf"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 285,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u30fc\u304c\u99c6\u3051\u56de"
+            },
+            "line_number": 286,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "65"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 287,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u308b\u30a4\u30e1\u30fc\u30b8\u3060\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 288,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0/n\u4ffa\u306f\u81ea\u5206\u306e\u30cf\u30f3\u30c9\u30eb\u30cd\u30fc\u30e0\u304b\u3089\u3001"
+            },
+            "line_number": 289,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "66"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 290,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\u3068"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 291,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u547c\u3093\u3067\u3044\u308b\u3002"
+            },
+            "line_number": 292,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 293,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "67"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 294,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u3068\u3053\u308d\u304c\u3001\u653e\u3063\u305f\u30ce\u30e9\u30cf\u30e0\u305f\u3061\u304c\u6b21\u3005\u3068\u6d88\u3055"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 295,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u308c\u3066\u3044\u304f\u3002"
+            },
+            "line_number": 296,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "68"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 297,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 298,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\uff23\u2010\uff21\uff29\u306e\u51e6\u7406\u901f\u5ea6\u306f\u3001\u3053\u3061\u3089\u306e\u60f3\u5b9a\u3092\u4e0a\u56de"
+            },
+            "line_number": 299,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "69"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 300,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playBgm",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BGM09"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 301,
+            "shiftEnd": 2,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG01c01"
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "0"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 302,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "update",
+                "params": [
+                    {
+                        "name": "transition",
+                        "value": "crossfade"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 303,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "waitUpdate",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 304,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u308b\u901f\u3055\u3060\u3063\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 305,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 306,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "70"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 307,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u3053\u3061\u3089\u306f\u6b63\u4f53\u3092\u96a0\u3059\u305f\u3081\u306b\u3001\u69d8\u3005\u306a\u57fa\u5730\u5c40\u3092"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 308,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u8fc2\u56de\u3057\u3066\u3044\u308b\u3002/n\u305d\u306e\u3046\u3048\u3001\u6226\u5834\u306f\u6708\u9762\u3060"
+            },
+            "line_number": 309,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": ""
+            },
+            "line_number": 310,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "71"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 311,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u3063\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 312,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0/n\u3069\u3046\u3057\u3066\u3082\u3001\u64cd\u4f5c\u3068\u5b9f\u884c\u306b\u30bf\u30a4\u30e0"
+            },
+            "line_number": 313,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "72"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 314,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30e9\u30b0\u304c\u3042\u308b"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 315,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3002"
+            },
+            "line_number": 316,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u5fc3\u306e\u58f0"
+            },
+            "line_number": 317,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "73"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 318,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u30ce\u30e9\u30cf\u30e0\u306e\u6570\u304c\u534a\u5206\u4ee5\u4e0b\u306b\u3055\u308c\u3066\u3057\u307e\u3063\u305f\u3002"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 319,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "/n\u305d\u306e\u3076\u3093\u3001\u81ea\u5206\u304c\u767a\u898b\u3055\u308c\u308b\u53ef\u80fd\u6027\u3082\u9ad8"
+            },
+            "line_number": 320,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "74"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 321,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 322,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u307e\u308b\u3002"
+            },
+            "line_number": 323,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "75"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 324,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 325,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3055\u3059\u304c\u3060\u306a\u2026\u2026\u3057\u304b\u3057\u3001\u3082\u3046\u4ffa\u306e\u75d5\u8de1\u306f/"
+            },
+            "line_number": 326,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "n\u3000\u5168\u3066\u524a\u9664\u3057\u305f\u2026\u2026\u300d/n\u5fc3\u306e\u58f0"
+            },
+            "line_number": 327,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "76"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 328,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 329,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u9003\u3052\u5207\u308c\u308b\uff01"
+            },
+            "line_number": 330,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "77"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 331,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 332,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3066\u3048\u3044\uff01\u300d"
+            },
+            "line_number": 333,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "78"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 334,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopBGM",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 335,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "\u6697\u8ee2",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 336,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playSe",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "SE290"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 337,
+            "shiftEnd": 1,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "cg",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "BG13A01"
+                    },
+                    {
+                        "name": "zoom",
+                        "value": "50"
+                    },
+                    {
+                        "name": "time",
+                        "value": "750"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 338,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "focus",
+                "params": [
+                    "all",
+                    {
+                        "name": "depth",
+                        "value": "6"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 339,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0/n\u601d\u3044\u5207\u308a\u3001\u8db3\u5143\u306b\u3042\u308b\u30b9\u30a4\u30c3\u30c1\u3092"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000011_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 340,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u8e74\u98db\u3070\u3059\u3002"
+            },
+            "line_number": 341,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "79"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 342,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000012_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 343,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u7269\u7406\u7684\u306b\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u56de\u7dda\u3092\u5207\u65ad\u3057\u305f\u3002"
+            },
+            "line_number": 344,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "80"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 345,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u584a\u6597"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000013_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 346,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u300c\u3075\u3045\u2026\u2026\u300d"
+            },
+            "line_number": 347,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "81"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 348,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": "\u5fc3\u306e\u58f0"
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000014_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 349,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u3053\u308c\u3067\u3001\uff23\u2010\uff21\uff29\u304b\u3089\u306f\u8ffd\u3044\u304b\u3051\u3088\u3046\u304c\u306a\u3044"
+            },
+            "line_number": 350,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "/n\u3060\u308d\u3046\u3002/n\u75d5\u8de1\u3082\u6d88\u53bb\u3057\u305f\u3057\u3002"
+            },
+            "line_number": 351,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "82"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 352,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Talk",
+                "params": [
+                    {
+                        "name": "name",
+                        "value": ""
+                    },
+                    {
+                        "name": "voice",
+                        "value": "TKY000015_E04"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 353,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "type": "text",
+                "value": "\u584a\u6597"
+            },
+            "line_number": 354,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "Hitret",
+                "params": [
+                    {
+                        "name": "id",
+                        "value": "83"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 355,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "hide",
+                "params": [],
+                "type": "annotation"
+            },
+            "line_number": 356,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "1000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 357,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopEnvSe",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "3000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 358,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "stopBgm",
+                "params": [
+                    {
+                        "name": "fade",
+                        "value": "3000"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 359,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "blackout",
+                "params": [
+                    {
+                        "name": "time",
+                        "value": "3000"
+                    },
+                    "hitCancel"
+                ],
+                "type": "annotation"
+            },
+            "line_number": 360,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "playMovie",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "kamikimi"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 361,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        },
+        {
+            "indexEnd": 0,
+            "indexStart": 0,
+            "line": {
+                "name": "change",
+                "params": [
+                    {
+                        "name": "target",
+                        "value": "00_02"
+                    }
+                ],
+                "type": "annotation"
+            },
+            "line_number": 362,
+            "shiftEnd": 0,
+            "shiftStart": 0
+        }
+    ]
+}

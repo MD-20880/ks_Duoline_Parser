@@ -85,7 +85,7 @@ def find_files(mode, _dir):
 def write_file(output_dir, file_to_write, mode, data):
     out_file_name = file_to_write
     index = file_to_write.rindex(constants.SEPARATOR)
-    if index is not -1:
+    if index != -1:
         out_file_name = file_to_write[index + 1:]
         pass
 

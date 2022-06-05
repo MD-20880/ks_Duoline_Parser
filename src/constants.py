@@ -12,6 +12,9 @@ END_LINE = '\n'
 if sys.platform == 'linux':
     SEPARATOR = '/'
     pass
+elif sys.platform == 'darwin':
+    SEPARATOR = '/'
+    pass
 else:
     SEPARATOR = '\\'
     pass
