@@ -1,51 +1,49 @@
+#!/usr/bin/python3
 import json
+import re
+import constants
 from line import *
 
+def decode_from_text(stext,sjson):
+    jsondata = json.loads(sjson)
+    scriptdata = stext
 
-with open("result/script/00_01.ks.json", 'r') as f:
-    data = json.load(f)
+    original = []
+    translated = []
+    lineList = scriptdata.split(constants.END_LINE)
+    for lineNo in range(0,len(lineList),3):
+        try:
+            originaltext = re.findall("[[](.*)[]](.*)",lineList[lineNo+0])
+            original.append(originaltext[0][0])
+            splitOrigin = originaltext[0][1].split("/n")
+            original.extend(splitOrigin)
 
-lines = data["lines"]
-lineList = [] #存储着所有与翻译相关的行
+            translatedtext = re.findall("[[](.*)[]](.*)",lineList[lineNo+1])
+            translated.append(translatedtext[0][0])
+            #splitTranslated = [translatedtext[0][1]]
+            splitTranslated = [translatedtext[0][1][i:i+30] for i in range(0,len(translatedtext[0][1]),30)]
+            #确保翻译后与翻译前行数一致
+            while len(splitTranslated) < len(splitOrigin):
+                splitTranslated.append(" ")
+            translated.extend(splitTranslated)
+        except:
+            break
 
-#这个For循环提取所有@Talk 和 text行
-for line in lines:
-    if isAnnotation(line) and line["line"]["name"] == "Talk":
-        lineList.append(line)
-    elif isText(line):
-        lineList.append(line)
+    translated.reverse()
 
-#reverse，为了pop做准备
-lineList.reverse()
+    #替换JSON文件对应位置
+    jsonLineList = jsondata["lines"]
+    currentText = translated.pop()
+    for line in jsonLineList[1:]:
+        if isAnnotation(line) and line["line"]["name"] == "Talk":
+            line["line"]["params"][0]["value"] = currentText
+            currentText = translated.pop()
+        elif isText(line):
 
-#EditingText 最终文档，其格式为
-#[name] CONTENTS \n     原文行
-#[name] CONTENTS \n     翻译行
-#\n
-# ......
-#其中，若原文行中出现换行，则由/n表示
-EditingText = ""
-currentLine = lineList.pop()
-while len(lineList) > 0:
-    name = ""
-    text = []
-    #此if 块
-    if isAnnotation(currentLine):
-        name = getName(currentLine)
-        currentLine = lineList.pop()
-        while not isAnnotation(currentLine):
-            text.append(getText(currentLine))
+            line["line"]["value"] = currentText
             try:
-                currentLine = lineList.pop()
+                currentText = translated.pop()
             except:
                 break
-        EditingText += ("[" + name + "]" + "/n".join(text) + "\n" )*2 + "\n"
-    else:
-        currentLine = lineList.pop()
 
-with open("result/test",'w') as f:
-    f.write(EditingText)
-
-
-
-
+    return json.dumps(jsondata,indent=4,sort_keys=True)
